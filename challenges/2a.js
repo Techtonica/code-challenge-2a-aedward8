@@ -13,7 +13,12 @@
 // [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
 
 function monkeyTrouble(a,b){
-  return // Place your code here.
+  if(a==b){
+    return true;
+  } else {
+    return false;
+  }
 }
 
+//console.log(monkeyTrouble('smile', 'smile'));
 module.exports = monkeyTrouble;
